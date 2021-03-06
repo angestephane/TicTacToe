@@ -41,7 +41,11 @@ public class Jeu {
            }while (etatCourent == EtatJeu.JOUER);
        }
 
-    private void initialiseJeu() {
+   /**
+    * Par defaut on donne le pion X au joueur courent.
+    * Par defaut le jeu reste en cours.
+    */ 
+   private void initialiseJeu() {
          plateau.initialiserPlateau();
          joueurCourent = AJouer.CROIX;
          etatCourent = EtatJeu.JOUER;
