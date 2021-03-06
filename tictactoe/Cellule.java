@@ -29,7 +29,7 @@ public class Cellule {
     }
     
     /**
-     * Definir un element à ajouter à la cellule
+     * Definir les élements à ajouter à la cellule
      */
     public void affiche(){
         switch (content) {
