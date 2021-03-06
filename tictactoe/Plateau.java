@@ -76,7 +76,8 @@ public class Plateau {
     }
     
     /**
-     * Ajoute l'entrée du joueur dans une colonne
+     * Ajoute l'entrée du joueur dans une colonne. Grace à la methode affiche
+     * de la class Cellule. Separe le contenu des cellule également. 
      */
     public void tableau(){
         for(int ligne = 0; ligne < LIGNE; ++ligne){
